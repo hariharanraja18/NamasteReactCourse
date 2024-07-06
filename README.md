@@ -14,5 +14,14 @@ Local Development: Developers work locally, where a CDN isn't needed and can com
 Build and Deploy: React apps are typically bundled into optimized files during deployment. Serving these directly from your server is simpler and ensures the latest version is always used.
 However, CDNs are great for serving static assets like images and stylesheets to improve load times for users around the world.
 
+Same-Origin Policy:
+
+Browsers enforce a security policy called the Same-Origin Policy. This policy restricts web pages from making requests to resources (like scripts, stylesheets, or data) from domains other than the one that served the web page itself.
+This restriction is crucial for preventing malicious scripts from accessing sensitive data or performing actions on behalf of the user without permission.
+Cross-Origin Resource Sharing (CORS):
+
+When a script tag includes a src attribute pointing to a different domain (origin) than the one hosting the web page, it triggers a cross-origin request.
+By default, browsers may block such requests to enforce security. However, CORS headers can be used to relax these restrictions under controlled conditions.
+
 3)what is cache?
 a cache is a temporary storage area that keeps copies of data or files so that future requests for that data can be served faster.
