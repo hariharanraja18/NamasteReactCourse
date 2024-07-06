@@ -1,0 +1,28 @@
+{
+	"name": "namaste-react",
+	"version": "1.0.0",
+	"description": "practicing fundamentals of react",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hariharanraja18/NamasteReactCourse.git"
+	},
+	"keywords": [],
+	"author": "Hariharan",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/hariharanraja18/NamasteReactCourse/issues"
+	},
+	"homepage": "https://github.com/hariharanraja18/NamasteReactCourse#readme",
+	"devDependencies": {
+		"parcel": "^2.12.0",
+		"process": "^0.11.10"
+	},
+	"dependencies": {
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1"
+	}
+}
